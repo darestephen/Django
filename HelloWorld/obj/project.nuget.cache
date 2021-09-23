@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "y5vVOhfQa/KD1O+4gdQLVr38h7ri4CVOtrXCJes1mwKr8Ev7Ev582NFFwtFpnH2HH9JGjjJAwHBDo0qHxSqUww==",
+  "dgSpecHash": "eENCUgTelAPY6b9YSgKjfUwL0+Mwsi2vn3z4c3bFk7IGTfS8ED+Bs9olj2NoaQJwk+vc+nDwX5+D93zKMP1ZAg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\PFolder\\ALABI\\HelloWorld\\HelloWorld.csproj",
+  "projectFilePath": "C:\\Users\\User\\PFolder\\Django\\HelloWorld\\HelloWorld.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
