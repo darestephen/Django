@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using Models;
 
  namespace HelloWorld
 {
@@ -169,10 +170,19 @@ using System.Collections.Generic;
 
                               Console.WriteLine("Dear Valued Customer,please fill the details below to begin your order");
                               Console.WriteLine("Enter your name below");
-                                      name = Console.ReadLine();
-                              Console.WriteLine("Enter your phone number");
+                                       name = Console.ReadLine();
+                                      if (name == " ")
+                                      {
+                                         Console.WriteLine("Name can't be empty!Enter you name");
+                                           name = Console.ReadLine();
+                                      }
+                                      else
+                                      {
+                                          Console.WriteLine("Enter your phone number");
                                     phone = long.Parse(Console.ReadLine());
-             Console.WriteLine("[1] Enter the cartons of Hennessy VSOP");                         
+                                      }
+                                      
+                               Console.WriteLine("[1] Enter the cartons of Hennessy VSOP");                         
                           number = int.Parse(Console.ReadLine());
                              num1 = (8453 * number);
                                  if (number >= 0)
@@ -279,43 +289,7 @@ using System.Collections.Generic;
     }
 
                          
-               class Storage
-
-          {
-              //This is a default empty constructor
-                    public void  Ware() {}
-                     //Constructor overloading
-                    public void Ware(string name)
-                       {this.name = name;
-                       }
-
-                       public void Ware(string name,long phone,double Total,double Total3,double number)
-                         
-                         {
-                            this.name = name;
-                            this.phone = phone;
-                            this.Total = Total;
-                            this.Total3 = Total3;
-                            this.number = number;
-
-                         }
-                          //This is an example of property
-                    public string name   {get; set;}
-                    public long phone    {get; set;}
-                    public double Total  {get; set;}
-                    public double Total3 {get; set;}
-                    public double number {get; set;}
-
-               
-                  public override string ToString()
-                  {
-                    return $"Name:{this.name}, Phone:{this.phone}, Total:{this.Total}, Total3: {this.Total3}, Number:{this.number}";
-
-                  }
-
-          }
-                    
-
+          
 
 }
                   

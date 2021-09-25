@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "l/p3LW+YTG1NB62/PTsyA9sxDbeUUtW1PbBH5/FEaYNPBu9GccVG71fWSGWOjBZqayaNq1bnoUSF4HhyHNHCsg==",
+  "dgSpecHash": "FszPrze+B7XxfwXaqCNmsVo4MmJrqz16/CKysEtRg5d0+DROatIBG4aY5lF6OwVYOc00H4hGRn4Gf/s7vEOreQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\User\\PFolder\\Warehouse-Console\\UI\\UI.csproj",
+  "projectFilePath": "C:\\Users\\User\\PFolder\\Django\\Warehouse-Console\\UI\\UI.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
